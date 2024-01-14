@@ -408,7 +408,7 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
+    background: linen;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;

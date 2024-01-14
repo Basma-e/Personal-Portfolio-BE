@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
           integrity="sha256-KJtEXIHRZG/u3DcjPxxl3IeScH8Js9OMov6+7Ygh1No=" crossorigin="anonymous" />
 
-        <!-- Update these with your own fonts -->
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;900|Fira+Sans:wght@300;900&display=swap">
 
 
@@ -18,7 +18,7 @@
     <body>
         <header>
             <div class="logo">
-                <img src="http://bien24.com/img/devjane.png" alt="">
+                <img src="img/logo.png" alt="">
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -26,39 +26,50 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
 
-<!--
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                The title <strong>of my project</strong>
+                The Workout Warp Wizard
             </h1>
-            <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
-            <img src="https://images.unsplash.com/photo-1596784326488-23581279e33d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">My first project</p>
+            <img src="img/workout wizard.png" alt="" class="intro__img">
         </section>
 
         <div class="portfolio-item-individual">
-            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-            <img src="https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+            <h4>Inspiration</h4>
+            <p>Our inspiration for WorkoutWarp Wizard came from a shared frustration with mundane workout routines. We sought to create a dynamic tool that injects excitement and variety into fitness regimens.</p>
+        <!--    <img src="https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt=""> -->
+            <h4>What it does</h4>
+            <p>WorkoutWarp Wizard is a personalized workout generator. By understanding user preferences, it crafts unique exercise routines, making fitness more engaging and effective.</p>
+            <h4>How we built it</h4>
+            <p>Tech Stack: Leveraging Flask, Python and HTML for a responsive web interface. Algorithm: Developed an algorithm to curate workouts based on user input, ensuring diversity and effectiveness. Collaboration: A collaborative effort, combining individual strengths to create a cohesive and functional application.</p>
+            <h4>Try it out!</h4>
+            <a href="https://github.com/judyabusteit/HackED-Beta" class="">WorkoutWarp Wizard GitHub Repo</a>
         </div>
 
-    -->
+
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <a href="mailto:basma.ebeid123@gmail.ca" class="footer__link">basma.ebeid123@gmail.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" 
-                href="https://www.linkedin.com/in/basmaebeid/">a</a></li>
-                <li class="social-list__item"><a class="social-list__link" 
-                href="https://github.com/Basma-e">b</a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/basmaebeid/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Basma-e">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
-
 
         <script src="app.js"></script>
 
